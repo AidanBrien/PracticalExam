@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <TextView
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Activity2"
+            android:id="@+id/activity2Tab" android:layout_weight="0.04"/>
+    <EditText
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/DataReceived" android:text="Data received"/>
+    <Button
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:id="@+id/btnDone"/>
+</LinearLayout>

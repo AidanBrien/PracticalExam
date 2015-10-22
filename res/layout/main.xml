@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1" android:id="@+id/mainLayout">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Activity "
+            android:layout_alignParentLeft="true" android:layout_marginLeft="0dp" android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp" android:id="@+id/textView"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="calcSums"
+            android:id="@+id/btnCalc"
+            android:layout_marginTop="52dp" android:layout_below="@+id/txtResult2"
+            android:layout_alignParentLeft="true"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editText1" android:layout_below="@+id/textView" android:layout_alignParentLeft="true"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editText2" android:layout_below="@+id/editText1" android:layout_alignParentLeft="true"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editText3" android:layout_below="@+id/editText2" android:layout_alignParentLeft="true"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editText4" android:layout_below="@+id/editText3" android:layout_alignParentLeft="true"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editText5" android:layout_below="@+id/editText4" android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sum is.."
+            android:id="@+id/txtResult"
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Max is.. "
+            android:id="@+id/txtResult2"
+            android:layout_marginTop="66dp" android:layout_below="@+id/txtResult"
+            android:layout_alignParentLeft="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HardCodeCalc"
+            android:id="@+id/btnCalc1" android:layout_alignTop="@+id/btnCalc" android:layout_toRightOf="@+id/btnCalc"
+            android:layout_marginLeft="48dp"/>
+</RelativeLayout>
+
